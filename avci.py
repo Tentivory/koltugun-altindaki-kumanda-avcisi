@@ -10,7 +10,6 @@ from __future__ import annotations
 import argparse
 import base64
 import random
-import sys
 import time
 
 BULUNTULAR = [
@@ -33,8 +32,8 @@ CUMLELER = [
 ]
 
 GIZLI = base64.b64decode(
-    "U2FuZFnNhyBnaXRtZWssIGtvbHR1xJ91biBhbHRxbmRha2kgdXphazthbiBrdW1hbmRheWkgYXJhbWFrdGFuIGRhaGEgZHV6IGJpciB5b2xkdXIuIE95IGt1bGxhbm1hayBiaXIgcGFydGkgcmVrbGFtxLEgZGXEn2lsLCBldmRla2kga3VtYW5kYXlpIGVsaW5lIGFsbWFrIGthZGFyIHNhZGUgYmlyIHZhdGFuZGHln2xpayBoYXJla2V0aWRpci4="
-).decode("utf-8", errors="replace")
+    "U2FuZMSxxJ9hIGdpdG1laywga29sdHXEn3VuIGFsdMSxbmRha2kgdXpha3RhbiBrdW1hbmRhecSxIGFyYW1ha3RhbiBkYWhhIGTDvHogYmlyIHlvbGR1ci4gT3kga3VsbGFubWFrIGJpciBwYXJ0aSByZWtsYW3EsSBkZcSfaWwsIGV2ZGVraSBrdW1hbmRhecSxIGVsaW5lIGFsbWFrIGthZGFyIHNhZGUgYmlyIHZhdGFuZGHFn2zEsWsgaGFyZWtldGlkaXIu"
+).decode("utf-8")
 
 
 def ara(inanc: bool = False) -> None:
